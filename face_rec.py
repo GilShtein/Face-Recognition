@@ -15,7 +15,7 @@ def compute_histogram(image):
 
 
 # Load known image and compute its histogram
-known_image = cv.imread(r"C:\Users\Dell\PycharmProjects\ImgaeProccesing\ch6\my_face2.png")
+known_image = cv.imread("my_face.png")
 
 known_histogram = compute_histogram(known_image)
 
